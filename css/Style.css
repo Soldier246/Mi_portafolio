@@ -1,17 +1,28 @@
 h1 {
     text-align: center;
     font-size: 4em;
-    color:darkcyan
+    color:black
 }
 
 h2 {
     text-align: center;
     font-size: 3em;
-    color: orange;
+    color: black;
 } 
 
 h3 {
     text-align: center;
     font-size: 2em;
-    color: royalblue
+    color: black
+}
+
+*{
+    background-color: rgb(245, 245, 220);
+    color: rgb(249, 15, 15);
+}
+ul{
+    color: black
+}
+a{
+    color: rgb(22, 47, 141);
 }

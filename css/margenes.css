@@ -1,13 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    background-color:aqua
+    background-color:black
 }
 .main-box {
     display: flex;
     align-items: flex-start;
     margin-top: 200px;
-    background-color: aqua;
+    background-color: black;
     justify-content: center;
     flex-direction: row;
     /*vh: view height */
@@ -15,13 +15,13 @@
 }
 .box-style {
     width: 300px;
-    margin: 0 40px;
+    margin: 0 70px;
     background-color: rgb(242, 242, 242);
 }
 .box-1 {
     border: 3px solid rgb(124, 252, 0);
     display: inline-block;
-    padding: 0 25px;
+    height: 450px;
 }
 .box-2 {
     border: 3px dotted rgb(255, 20, 147);
@@ -34,7 +34,7 @@
     height: 450px;
 }
 .box-4 {
-    border: 8px double rgb(70, 130, 180);
+    border: 3px double rgb(70, 130, 180);
     display: inline-block;
     height: 450px;
 }

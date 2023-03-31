@@ -1,20 +1,32 @@
 * {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     background-color: black;
+=======
+    background-color:black
+>>>>>>> a277e87a84101fafaf39bcbebe166e42529c297b
 }
 .main-box {
     display: flex;
     align-items: flex-start;
     margin-top: 200px;
+<<<<<<< HEAD
     background-color:black;
+=======
+    background-color: black;
+>>>>>>> a277e87a84101fafaf39bcbebe166e42529c297b
     justify-content: center;
     flex-direction: row;
     /*vh: view height */
     height: 100vh;
 }
 .box-style {
+<<<<<<< HEAD
     width: 900px;
+=======
+    width: 300px;
+>>>>>>> a277e87a84101fafaf39bcbebe166e42529c297b
     margin: 0 70px;
     background-color: rgb(242, 242, 242);
 }

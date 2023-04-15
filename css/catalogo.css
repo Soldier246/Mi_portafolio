@@ -1,67 +1,117 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: w;
+}
+
+.fondo{
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
 }
 .main-box {
+    width: 100%;
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
 }
+
 .box-style {
-    width: 400px;
-    margin: 0 auto;
+    width: 330px;
     background-color: rgb(242, 242, 242);
-    height: 560px;
-    margin-top: 100px;
-   padding-top: 0.5px;
+    padding-top: 0.5px;
+    margin: 0px 40px;
 }
+
 .product-box {
-    width: 250px;
-    height: 250px;
-    background-color: rgb(255, 4, 4);
-    margin: 0 auto;
-    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
 }
-.img {
-    margin-top: -40px;
-    background-color: transparent;
-}
-.add-cart-1 {
-    margin-bottom: 100px;
-    margin-top: 35px;
+
+.add-cart {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100px;
-    background-color: rgb(39,200,164);
+    height: 80px;
+    cursor: pointer;
 }
+.add-cart:hover{
+    background-color: rgba(0, 0, 0, 0.229);
+}
+
+.add-cart-1-color {
+    background-color: rgb(240, 184, 185);
+}
+
+.add-cart-2-color {
+    background-color: rgb(132, 41, 59);
+}
+
+.add-cart-3-color {
+    background-color: rgb(57, 58, 60);
+}
+
 .product-text {
     text-align: center;
-    background-color: white;
 }
+
 .product-text-span {
     margin-bottom: 0;
-    margin-top: 110px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
     font-size: 1.3em;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(64,64,64, .9);
+    color: rgb(64, 64, 64, .9);
 }
-.text-description{
-    background-color: white;
-    color: rgb(64,64,64, .9);
+
+.text-description {
+    color: rgb(64, 64, 64, .9);
     font-size: .8em;
 }
-.add-cart-1-span{
+
+.add-cart-1-span {
     background-color: transparent;
     color: white;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.0em;
+}
+
+.estrellas {
+    height: auto;
+}
+
+.fa-star {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(252, 216, 14);
+    cursor: pointer;
+}
+
+.price-tex {
+    font-size: 2em;
+    margin: 0px 0px 20px 0px;
+    display: block;
+}
+
+.price-tex1-color {
+    color: rgb(240, 184, 185);
+    font-weight: bolder;
+}
+
+.price-tex2-color {
+    color: rgb(132, 41, 59);
+    font-weight: bolder;
+}
+
+.price-tex3-color {
+    color: rgb(57, 58, 60);
+    font-weight: bolder;
 }

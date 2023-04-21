@@ -1,0 +1,64 @@
+.table-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,td {
+    border: 1px solid white;
+    padding: 15px 20px;
+    text-align: center;
+}
+.th-paquete {
+    border-top-left-radius: 20px;
+    background-color: rgb(0,128,128);
+    color: white;
+}
+.th-canal {
+    background-color: rgb(0,128,128);
+    color: white;
+}
+.th-basic {
+    background-color: rgb(118,170,86);
+    color: white;
+}
+.th-silver {
+    background-color:rgb(0,128,128);
+    color: white;
+}
+.th-gold {
+    background-color:goldenrod;
+    color: white;
+}
+.th-platinum {
+    background-color:blueviolet;
+    color: white;
+    border-top-right-radius: 20px;
+}
+.th-1 {
+    background-color: rgb(0,128,128);
+    color: white;
+}
+.th-2 {
+    background-color: rgb(0,128,128);
+    border-bottom-left-radius: 20px;
+    color: white;
+}
+.th-3 {
+    background-color: rgb(189,187,187);
+}
+.th-4 {
+    background-color: rgb(189,187,187);
+    border-bottom-right-radius: 20px;
+}
+.x-style {
+    color: red;
+}
+.z-style {
+    color: rgb(86, 232, 23);
+}

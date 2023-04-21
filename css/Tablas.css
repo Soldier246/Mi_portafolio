@@ -3,49 +3,48 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family:Arial, Helvetica, sans-serif
 }
-
 table {
     border-collapse: collapse;
 }
-
 th,td {
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 15px 20px;
     text-align: center;
 }
 .th-paquete {
     border-top-left-radius: 20px;
-    background-color: rgb(0,128,128);
+    background-color: rgb(0,139,139);
     color: white;
 }
 .th-canal {
-    background-color: rgb(0,128,128);
+    background-color: rgb(0,139,139);
     color: white;
 }
 .th-basic {
-    background-color: rgb(118,170,86);
+    background-color: rgb(12,155,76);
     color: white;
 }
 .th-silver {
-    background-color:rgb(0,128,128);
+    background-color:rgb(66,167,255);
     color: white;
 }
 .th-gold {
-    background-color:goldenrod;
+    background-color:rgb(255,123,0);
     color: white;
 }
 .th-platinum {
-    background-color:blueviolet;
+    background-color:rgb(85, 6, 98);
     color: white;
     border-top-right-radius: 20px;
 }
 .th-1 {
-    background-color: rgb(0,128,128);
+    background-color: rgb(0,139,139);
     color: white;
 }
 .th-2 {
-    background-color: rgb(0,128,128);
+    background-color: rgb(0,139,139);
     border-bottom-left-radius: 20px;
     color: white;
 }

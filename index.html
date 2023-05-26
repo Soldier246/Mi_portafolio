@@ -7,30 +7,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi portafolio </title>
     <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="icons/all.css">
 </head>
+
 <body>
-    <img class="img-fondo" src="img/Fondo-chucky.jpg" alt="">
+
+    <img class="img-fondo" src="img/Perro Wow.jpg" alt="">
     <div class="letras">
-        <h1>Mi Portafolio</h1>
+        <h1>Bienvenidos</h1>
         <h2>Duvan Felipe Casallas Zoriano</h2>
         <h3>Producción de Multimedia</h3>
     </div>
-    <ul>Menú
-        <li><a href="index.html" class="ct2">Inicio</a></li>
-        <li><a href="Listas.html" class="ct2">Listas</a></li>
-        <li><a href="Fuente.html" class="ct2">Fuentes</a></li>
-        <li><a href="Colores.html" class="ct2">Colores</a></li>
-        <li><a href="catalogo.html" class="ct2">Catálogo</a></li>
-        <li><a href="margenes.html" class="ct2">Margenes</a></li>
-        <li><a href="Tablas.html" class="ct2">Tabla😆</a></li>
-        <li><a href="menu-horizontal.html" class="ct2">Menú-Horizontal</a></li>       
-        <li><a href="media-query.html" class="ct2">Media-query</a></li>
-        <li><a href="transition.html" class="ct2">Transision</a></li>
-            <ul>
-                <li><a href="Fuentes1.html" class="ct2">Fuente de Game of Thrones</a></li>
-                <li><a href="Fuentes2.html" class="ct2">Fuente de Netflix</a></li>
-                <li><a href="Fuentes3.html" class="ct2">Fuente de Disney</a></li>
-            </ul>     
-    </ul>
+    <nav>
+        <div class="hamburguer">
+            <span id="menuBar" class="menu-bar">&#9776</span>
+        </div>
+        <ul id="menuDesplegable" class="ul-transition-replegar">
+
+            <li><a href="index.html" >Inicio</a></li>
+            <li><a href="Listas.html" >Listas</a></li>
+            <li><a id="padreSubmenu"  >Fuentes <i  id="i" class="fa-solid fa-chevron-right"></i></a>
+                <ul id="submenu" class="submenu-invisible">
+                    <li><a href="Fuentes1.html" >Fuente de Game of Thrones</a></li>
+                    <li><a href="Fuentes2.html" >Fuente de Netflix</a></li>
+                    <li><a href="Fuentes3.html" >Fuente de Disney</a></li>
+                </ul>
+            </li>
+            <li><a href="Colores.html" >Colores</a></li>
+            <li><a href="catalogo.html" >Catálogo</a></li>
+            <li><a href="margenes.html" >Margenes</a></li>
+            <li><a href="Tablas.html" >Tabla</a></li>
+            <li><a href="menu-horizontal.html" >Menú-Horizontal</a></li>
+            <li><a href="media-query.html" >Media-query</a></li>
+            <li><a href="posicionamiento.html" >Posicionamiento</a></li>
+            <li><a href="transition.html" >Transision</a></li>
+        </ul>
+    </nav>
 </body>
+
 </html>
+<script src="js/main.js"></script>

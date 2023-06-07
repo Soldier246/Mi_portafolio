@@ -6,14 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>menu-subitems-2</title>
     <link rel="stylesheet" href="css/menu-subitems-2.css">
+    <link rel="stylesheet" href="icons/all.css">
 </head>
 <body>
 <nav>
     <ul>
-        <li class="item-style"><a href="#">Inicio</a></li>
-        <li class="item-style"><a href="#">Productos</a></li>
-        <li class="item-style"><a href="#">Contáctenos</a></li>
-        <li class="item-style"><a href="#">Quienes Somos</a></li>
+        <li class="item-style"><i class="fa-solid fa-house"></i><a href="#">Inicio</a></li>
+        <li class="item-style"><i class="fa-solid fa-suitcase"></i><a href="#">Trabajos</a></li>
+        <li class="item-style"><i class="fa-solid fa-rocket"></i><a href="#">Proyectos</a><i  id="flecha" class="fa-solid fa-chevron-down"></i>
+            <ul>
+                <li> <a href="#">SubElemento #1</a></li>
+                <li> <a href="#">SubElemento #2</a></li>
+                <li> <a href="#">SubElemento #3</a></li>
+             </ul>
+        <li class="item-style"><i class="fa-solid fa-earth-americas"></i><a href="#">Servicios</a></li>
+        <li class="item-style"><i class="fa-solid fa-envelope"></i><a href="#">Contacto</a></li>
+        </li>
     </ul>
 </nav>
 </body>

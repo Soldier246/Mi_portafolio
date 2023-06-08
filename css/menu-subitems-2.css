@@ -40,25 +40,27 @@ li {
 nav li li {
     max-height: 0;
     overflow: hidden;
-    transition: all 0.5s;
+    transition: 0.3s;
+    background-color: black;
+    width: 380px;
+    text-align: left;
 }
 
 nav li:hover>ul>li {
     max-height: 250px;
     overflow: visible;
     border: 1px solid white;
-    transition: all 0.5s;
-    background-color: black;
+    transition: 0.3s;
     width: 380px;
+    text-align: left;
 }
 
-#flecha {
+#x {
     color: white;
-    margin-left: 15px;
     font-size: 0.6em;
     margin-left: 20px;  
 }
 
-nav>ul>li:hover a #flecha {
-    rotate: -180deg;
+nav>ul>li:hover a #x {
+    rotate: 180deg;
 }

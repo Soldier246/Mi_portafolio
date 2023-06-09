@@ -42,7 +42,7 @@ nav li li {
     overflow: hidden;
     transition: 0.3s;
     background-color: black;
-    width: 380px;
+/*     width: 380px; */
     text-align: left;
 }
 
@@ -51,7 +51,7 @@ nav li:hover>ul>li {
     overflow: visible;
     border: 1px solid white;
     transition: 0.3s;
-    width: 380px;
+/*     width: 380px; */
     text-align: left;
 }
 
@@ -61,6 +61,62 @@ nav li:hover>ul>li {
     margin-left: 20px;  
 }
 
-nav>ul>li:hover a #x {
-    rotate: 180deg;
+.main-nav {
+    background-color: rgb(235, 102, 124);
+    height: 70px;
+    width: 100%;
+    font-size: 1.2em;
+    font-family:'Poppins', sans-serif;
+    font-weight: 700;
 }
+
+.main-menu-pc { 
+    list-style: none;
+    text-align: right; 
+}
+
+/* .item-style:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+}
+ */
+.menu-bar {
+    display: none;
+}
+
+/* @media only screen and (max-width: 1500px) {
+    .main-menu {
+       height: 70%;
+       background-color: rgb(16, 103, 175);
+       list-style: none;
+       text-align: right;
+       position: fixed;
+       width: 80%;
+       left: -100%;
+       transition: left 400ms;
+    }
+    .main-menu-block {
+       height: 70%;
+       background-color: rgb(16, 103, 175);
+       list-style: none;
+       text-align: right;
+       position: fixed;
+       width: 70%;
+       left: 0;
+       transition: left 400ms;
+    }
+    .item-style {
+       display: block;
+    }
+    .menu-bar {
+       display: inline-block;
+       color: white;
+       text-align: right;
+       padding-top: 19px;
+       margin-left: 20px;
+       font-size: 2em;
+    }
+    .menu-bar:hover {
+       cursor: pointer;
+    }
+   } */

@@ -1,4 +1,4 @@
-/* let menuBar = document.getElementById("menuBar")
+let menuBar = document.getElementById("menuBar")
 let mainNav = document.getElementById("mainNav")
 let mainMenu =document.getElementById("mainMenu")
 
@@ -12,4 +12,3 @@ else {
      mainMenu.classList.remove("main-menu-block");
 } 
 });
- */

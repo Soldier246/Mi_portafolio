@@ -35,6 +35,10 @@ header {
                    "empty-left  article-4   article-5  article-6  empty-right"    500px /
                     1fr           350px        350px     350px        1fr;
 }
+.img-fondo {
+    width: auto;
+    height: 350px;
+}
 .img-principal { 
     grid-area: img-principal;
     width: 100%;

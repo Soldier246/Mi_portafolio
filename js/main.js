@@ -27,3 +27,14 @@ padreSubmenu.addEventListener("click", function () {
         i.classList.add("i-transition");
     }
 })
+hijoSubmenu.addEventListener("click", function () {
+    if (hijomenu.classList.contains("submenu-transition")) {
+        hijomenu.classList.remove("submenu-transition");
+        hijomenu.classList.add("submenu-invisible");
+        o.classList.remove("o-transition");
+    } else {
+        hijomenu.classList.add("submenu-transition")
+        hijomenu.classList.remove("submenu-invisible");
+        o.classList.add("o-transition");
+    }
+})

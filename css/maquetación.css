@@ -35,8 +35,12 @@ header {
                    "empty-left  article-4   article-5  article-6  empty-right"    500px /
                     1fr           350px        350px     350px        1fr;
 }
+.img-fondo-grande {
+    width: 100%;
+    height: 600px;
+}
 .img-fondo {
-    width: auto;
+    width: 100%;
     height: 350px;
 }
 .img-principal { 
@@ -80,8 +84,9 @@ header {
 .style-img-article {
     height: 350px;
 }
-.style-texto-article {
-    line-height: 1.5em;
-    text-align: justify;
-}
+    .style-texto-article {
+        line-height: 1.5em;
+        text-align: justify;
+        color: blue;
+    }
  

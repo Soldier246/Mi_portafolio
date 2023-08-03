@@ -1,0 +1,97 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    color: azure;
+}
+
+.box-cont {
+    background-color: aquamarine;
+    gap: 20px;
+}
+.box-1 {
+    display: flex;
+    flex-direction: column;
+}
+.box-2 {
+    display: flex;
+    flex-direction: row;
+}
+.box-3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-4 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.box-5 {
+    display: flex;
+    flex-direction: column;
+}
+.box-6 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-7 {
+    display: flex;
+    justify-content: space-around;
+}
+.box-8 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-9 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.box-height {
+    height: 500px;
+    gap: 70px;
+}
+.box-10 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.box-height-box-11 {
+    width: 400px;
+    height: 300px;
+    background-color: crimson;
+    padding: 10px;
+}
+.box-22 {
+    width: 30px;
+    background-color: bisque;
+    margin-right: 10px;
+    display: inline-block;
+}
+.box-gen {
+    background-color: teal;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cornflowerblue;
+    font: 1.8em;
+    margin-right: 20px;
+}
+.box-main-wrap {
+    gap: 20px;
+    height: 280px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 70%;
+    margin: 0 auto;
+}
+.box-gen-1:hover {
+    position: relative;
+    left: -50px;
+}
+h2 {
+    color: white;
+}

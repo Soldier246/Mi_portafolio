@@ -4,12 +4,12 @@
 }
 h1 {
     text-align: center;
-    color: azure;
+    color: white;
 }
 
 .box-cont {
-    background-color: aquamarine;
-    gap: 20px;
+    background-color: rgba(220, 20, 60, 0.685);
+    gap: 30px;
 }
 .box-1 {
     display: flex;
@@ -29,7 +29,7 @@ h1 {
 }
 .box-5 {
     display: flex;
-    flex-direction: column;
+    flex-direction: wrap;
 }
 .box-6 {
     display: flex;
@@ -48,35 +48,34 @@ h1 {
     justify-content: center;
     align-items: flex-start;
 }
-.box-height {
-    height: 500px;
-    gap: 70px;
-}
 .box-10 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
+.box-height {
+    height: 600px;
+    gap: 70px;
+}
 .box-height-box-11 {
     width: 400px;
     height: 300px;
-    background-color: crimson;
+    background-color: rgba(220, 20, 60, 0.336);
     padding: 10px;
 }
 .box-22 {
-    width: 30px;
-    background-color: bisque;
-    margin-right: 10px;
+    width: 40px;
+    background-color: wheat;
+    margin-right: 20px;
     display: inline-block;
 }
 .box-gen {
-    background-color: teal;
+    background-color: wheat;
     width: 250px;
     height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: cornflowerblue;
     font: 1.8em;
     margin-right: 20px;
 }

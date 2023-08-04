@@ -125,15 +125,22 @@ header {
 
 @media screen and (max-width:960px) {
     .main-contents {
+        column-gap: 0;
         display: grid;
         grid-template: "img-principal img-principal img-principal " auto
-            "empty-left  article-1     empty-right" 500px "empty-left  article-2     empty-right" 500px "empty-left  article-3     empty-right" 500px "empty-left  article-4     empty-right" 500px "empty-left  article-5     empty-right" 500px "empty-left  article-6     empty-right" 500px /
-            0.5fr 300px 0.5fr;
+                        "empty-left   article-1     empty-right"    500px 
+                        "empty-left   article-2     empty-right"    500px 
+                        "empty-left   article-3     empty-right"     500px 
+                        "empty-left   article-4     empty-right"     500px 
+                        "empty-left   article-5     empty-right"     500px 
+                        "empty-left   article-6     empty-right"     500px /
+                         1fr          300px         1fr;
+    }
+    .article {
+        width: 100%;
     }
 
     .img-principal {
-
-        height: 350px;
-
+        height: 100%;
     }
 }

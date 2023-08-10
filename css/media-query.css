@@ -62,19 +62,21 @@ a:hover {
  }
  .item-style {
     display: block;
-    border-bottom: 1px solid rgb(33, 25, 188);
+    border-radius: 30px 30px 30px 30px;
+/*     border-bottom: 2px solid rgb(33, 25, 188); */
  }
  .menu-bar {
     align-items: center;
     display: inline-block;
     color: black;
     text-align: right;
-    padding-top: 20px;
-    margin-left: 20px;
-    font-size: 2em;
+    padding-top: 10px;
+    margin-left: 15px;
+    font-size: 2.5em;
  }
  .menu-bar:hover {
     cursor: pointer;
+
  }
 }
   /* poppins-700 - latin */

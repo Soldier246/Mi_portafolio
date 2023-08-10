@@ -17,6 +17,7 @@ header {
     grid-area: logo;
     width: 100%;
     height: 100%;
+    justify-content: left;
 }
 
 .menu {
@@ -24,7 +25,7 @@ header {
     background-color: black;
     width: 100%;
     height: 100%;
-
+    justify-content: right;
 }
 
 .main-contents {
@@ -89,9 +90,8 @@ header {
 }
 
 .style-box {
-    color: white;
+    color: rgb(214, 43, 0);
     display: flex;
-    justify-content: right;
     align-items: center;
     font-size: 2em;
     font-weight: 900;
@@ -106,80 +106,63 @@ header {
     text-align: justify;
 }
 
-/* .main-nav {
-    background-color: rgb(33, 25, 188);
-    height: 90px;
-    width: 100%;
-    font-size: 1.2em;
-    font-family:'Poppins', sans-serif;
-    font-weight: 700;
-} */
-/* .main-nav-2 {
-    height: 90px;
-    width: 100%;
-    font-size: 1.2em;
-    font-family:'Poppins', sans-serif;
-    font-weight: 700;
-} */
 .main-menu-pc { 
     list-style: none;
-    text-align: left; 
+    text-align: right; 
 }
 .item-style {
     display: inline-block;
     padding: auto;
 }
-a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
+
 .item-style:hover {
     cursor: pointer;
-    background-color: grey;
-    border-radius: 40px 40px 40px 40px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
 }
-a:hover {
-    cursor: pointer;
-}
+
 .menu-bar {
     display: none;
 }
 
 @media screen and (max-width:1500px) {
     .main-menu {
-        height: 100vh;
-        background-color: rgb(64,64,64);
+        height: 28%;
+        background-color: rgba(0, 0, 0, 0.445);
         list-style: none;
         text-align: center;
         position: fixed;
-        width: 100%;
-        left: -100%;
-        transition: left 400ms;
+        width: -50%;
+        right: -100%;
+        transition: right 400ms;
+        border-radius: 10px 0px 0px 10px;
      }
      .main-menu-block {
-        height: 100vh;
-        background-color: rgb(64,64,64);
+        height: 28%;
+        background-color: rgba(0, 0, 0, 0.445);
         list-style: none;
         text-align: center;
         position: fixed;
-        width: 100%;
-        left: 0;
-        transition: left 400ms;
-        
+        width: -50%;
+        right: 0;
+        transition: right 400ms;
+        border-radius: 10px 0px 0px 10px;
      }
      .item-style {
-        display: right;
-    /*     border-bottom: 1px solid rgb(33, 25, 188); */
+        text-align: right;
+        display: block;
+        border-radius: 0px 40px 40px 0px;
+        position: static;
      }
      .img-logo {
-        display: none;
-    }
+        align-items: center;    
+     }
      .menu-bar {
-        display: grid;
-        color: white;
+        display: inline-block;
+        color: rgb(214, 43, 0);
         text-align: right;
-        padding-top: 20px;
-        margin-left: 20px;
+        padding-bottom: 10px;
+        margin-right: 10px;
         font-size: 2em;
      }
      .menu-bar:hover {

@@ -127,23 +127,23 @@ header {
 
 @media screen and (max-width:1500px) {
     .main-menu {
-        height: 28%;
+        height: 100%;
         background-color: rgba(0, 0, 0, 0.445);
         list-style: none;
         text-align: center;
         position: fixed;
-        width: -50%;
-        right: -100%;
+        width: 70%;
+        right: -70%;
         transition: right 400ms;
         border-radius: 10px 0px 0px 10px;
      }
      .main-menu-block {
-        height: 28%;
+        height: 100%;
         background-color: rgba(0, 0, 0, 0.445);
         list-style: none;
         text-align: center;
         position: fixed;
-        width: -50%;
+        width: 70%;
         right: 0;
         transition: right 400ms;
         border-radius: 10px 0px 0px 10px;

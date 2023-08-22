@@ -5,8 +5,8 @@
 }
 header {
     display: grid;
-    grid-template: "empty-left main-logo box-main-menu empty-right"  140px /
-                          140px    1fr           3fr       40px;
+    grid-template: "empty-left main-logo empty-center box-main-menu empty-right"  140px /
+                       140px      1fr        3fr          3fr       40px;
 }
 .main-logo {
     grid-area: main-logo;
@@ -35,7 +35,7 @@ header {
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
 }
-.main-circle {
+.circle {
     background-color: rgb(2, 104, 64);
     width: 1800px;
     height: 1800px;
@@ -54,16 +54,17 @@ h1 {
    color: rgb(2, 104, 64);
    font-family: 'Poppins', sans-serif;
    font-size: 1.4em;
-   font-weight: 900;
+   font-weight: 700;
 }
 .main-content {
-    margin-top: 140px;
+    margin-top: 100px;
     display: grid;
-    grid-template:"empty-left product-text empty-center product-img empty-right" 60px /
-                       140px        5fr       300px          3fr       40px;
+    grid-template:"empty-left product-text empty-center product-img empty-right" 140px /
+                       140px        3fr       3fr         3fr       40px;
 }
 .product-text {
     grid-area: product-text;
+    
 }
 .description-text {
     color: rgb(96, 96,93);
@@ -85,11 +86,18 @@ h1 {
     border: none;
     font-size: 1.2em;
     letter-spacing: 0.1em;
+    transition: 0.1s;
+}
+.button-learn:hover {
+    cursor: pointer;
+    color: rgb(2, 104, 64);
+    background-color: #000;
+    transform: scale(0.8)
 }
 .product-img {
+    padding-left: 50px;
     z-index: 10;
     grid-area: product-img;
-  /*   background-color: chartreuse; */
 }
 .redes-links {
     position: absolute;
@@ -98,19 +106,37 @@ h1 {
     display: flex;
     right: 20px;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
     text-align: center;
     right: 25px;
 }
-
 .redes-links a {
     color: #fff;
     font-size: 25px;
     transition: 0.4s;
 }
-
 .redes-links a:hover {
     transform: scale(1.4);
+}
+
+.box-img {
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+    left: 760px;
+    gap: 25px;
+    z-index: 10;
+    transition: 0.5s;
+}
+.box-img li {
+  list-style: none;
+  cursor: pointer;
+}
+.box-img li img {
+  max-width: 150pxpx;
+}
+.box-img li:hover {
+  transform: translateY(-15px);
 }
 
 @font-face {

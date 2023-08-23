@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="css/portafolio-simple.css">
+    <link rel="stylesheet" href="icons/all.css">
+</head>
+<body>
+    <header>
+        <div class="contenido">
+            <h1>Código <span>Web</span></h1>
+            <nav class="no-responsive">
+                <a href="#inicio">Inicio</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <nav id="responsive">
+                <a href="#inicio">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+                <a href="#habilidades">
+                    <i class="fa-solid fa-toolbox"></i>
+                </a>
+                <a href="#contacto">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <!--S.inicio-->
+    <section id="inicio">
+        <h2>Hola, soy <br>un Front Web Developer</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam magnam distinctio debitis ipsam totam temporibus cum.</p>
+        <button class="btn">Descargar CV</button>
+        <!--Indicador-->
+        <div class="indicador">
+            <a href="#inicio" class="selector pintado"></a>
+            <div class="linea"></div>
+            <a href="#habilidades" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#contacto" class="selector"></a>
+        </div>
+    </section>
+    <!--S.habilidades-->
+    <section id="habilidades">
+        <h3 class="titulo">Habilidades</h3>
+        <hr>
+        <div class="fila">
+            <div class="col">
+               <i class="fa-brands fa-github"></i>
+               <h3>Control de Versión Git</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur exercitationem fugit praesentium nulla explicabo iure recusandae, inventore ducimus enim.</p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-database"></i>
+                <h3>Base de Datos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur exercitationem fugit praesentium nulla explicabo iure recusandae, inventore ducimus enim.</p>
+             </div>
+             <div class="col">
+                <i class="fa-solid fa-object-group"></i>
+                <h3>Desarrollo de App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur exercitationem fugit praesentium nulla explicabo iure recusandae, inventore ducimus enim.</p>
+             </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+               <i class="fa-solid fa-globe"></i>
+               <h3>Desarrolo Web</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur exercitationem fugit praesentium nulla explicabo iure recusandae, inventore ducimus enim.</p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-camera"></i>
+                <h3>Fotografía</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur exercitationem fugit praesentium nulla explicabo iure recusandae, inventore ducimus enim.</p>
+             </div>
+             <div class="col">
+                <i class="fa-solid fa-store"></i>
+                <h3>Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur exercitationem fugit praesentium nulla explicabo iure recusandae, inventore ducimus enim.</p>
+             </div>
+        </div>
+        <div class="indicador">
+            <a href="#inicio" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#habilidades" class="selector pintado"></a>
+            <div class="linea"></div>
+            <a href="#contacto" class="selector"></a>
+        </div>
+    </section>
+    <!--S.contacto-->
+    <section id="contacto">
+        <h3 class="titulo">Contacto</h3>
+        <form action="">
+            <input type="text" placeholder="Email" class="entrada">
+            <input type="text" placeholder="Mensaje" class="entrada">
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+        <div class="indicador">
+            <a href="#inicio" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#habilidades" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#contacto" class="selector pintado"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Código Web 2024</p>
+    </footer>
+</body>
+</html>

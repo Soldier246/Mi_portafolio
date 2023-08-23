@@ -132,6 +132,51 @@ section{
     color: #fff;
     border-radius: 20px 20px 20px 20px;
 }
+#portafolio {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+#portafolio .titulo-seccion {
+    color: #fe4b57;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#portafolio .fila {
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+#portafolio .fila .proyecto {
+    border-radius: 20px 20px 20px 20px;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+}
+#portafolio .fila .proyecto img {
+    width: 100%;;
+    filter: grayscale(1);
+    object-fit: cover;
+    transition: .5s;
+}
+#portafolio .fila .proyecto:hover img {
+    filter: grayscale(0);
+}
+#portafolio .fila .proyecto .info {
+    position: absolute;
+    left: 0;
+    background-color: rgb(0, 0, 0, .7);
+    color: #fe4b57;
+    width: 100%;
+    padding: 10px;
+    opacity: 0;
+    bottom: -40px;
+    transition: .5s;
+}
+#portafolio .fila .proyecto:hover .info {
+    opacity: 1;
+    bottom: 0;
+}
 footer{
     background-color: #000;
     text-align: center;
@@ -190,5 +235,20 @@ footer{
     #contacto .btn{
         margin-top: 50px;
         margin-bottom: 10px;
+    }
+    #portafolio {   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;    
+    }
+    #portafolio .titulo-seccion {
+        color: #fe4b57;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    #portafolio .fila {
+        display: flex;
+        margin: 30px auto;
+        justify-content: space-between;
     }
 }

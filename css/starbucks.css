@@ -4,6 +4,11 @@
     font-family: 'Poppins', sans-serif;
 }
 header {
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    z-index: 15;
+    width: 100%;
     display: grid;
     grid-template: "empty-left main-logo empty-center box-main-menu empty-right"  140px /
                        140px      1fr        3fr          3fr       40px;
@@ -35,15 +40,23 @@ header {
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
 }
-.circle {
-    background-color: rgb(2, 104, 64);
+.main-circle {
     width: 1800px;
     height: 1800px;
     border-radius: 900px;
     position: fixed;
     top: 280px;
     right: -950px;
-/*     z-index: -1;    */ 
+    z-index: -1;
+}
+.main-circle-green{
+    background-color: rgb(2, 104, 64);
+}
+.main-circle-light-pink{
+  background-color: rgb(230, 112,147);
+}
+.main-circle-dark-pink{
+  background-color: rgb(194, 73, 199);
 }
 h1 {
    font-size: 4em;
@@ -57,7 +70,7 @@ h1 {
    font-weight: 700;
 }
 .main-content {
-    margin-top: 100px;
+    margin-top: 250px;
     display: grid;
     grid-template:"empty-left product-text empty-center product-img empty-right" 140px /
                        140px        3fr       3fr         3fr       40px;
@@ -100,7 +113,7 @@ h1 {
     grid-area: product-img;
 }
 .redes-links {
-    position: absolute;
+    position: fixed;
     top: 50%;
     transform: translateY(-50%);
     display: flex;
@@ -127,18 +140,31 @@ h1 {
     gap: 25px;
     z-index: 10;
     transition: 0.5s;
-}
-.box-img li {
-  list-style: none;
-  cursor: pointer;
-}
-.box-img li img {
-  max-width: 150pxpx;
-}
-.box-img li:hover {
-  transform: translateY(-15px);
+    list-style: none;
 }
 
+.style-img-mini {
+  z-index: 20;
+  position: relative;
+  transition: all 600ms;
+  top: 0;
+}
+
+.style-img-mini:hover {
+  cursor: pointer;
+}
+
+.mini-green:hover{
+  top: -30px
+}
+
+.mini-light-pink:hover{
+  top: -30px
+}
+
+.mini-dark-pink:hover{
+  top: -30px
+}
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Poppins';

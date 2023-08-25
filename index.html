@@ -1,61 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi portafolio </title>
+    <title>Porfolio</title>
     <link rel="stylesheet" href="css/Style.css">
     <link rel="stylesheet" href="icons/all.css">
 </head>
-
 <body>
-    <img class="img-fondo" src="img/Perro Wow.jpg" alt="">
-    <div id="loader"></div>
-    <div class="letras">
-        <h1>Bienvenidos</h1>
-        <h2>Duvan Felipe Casallas Zoriano</h2>
-        <h3>Producción de Multimedia</h3>
-    </div>
-    <nav>
-        <div class="hamburguer">
-            <span id="menuBar" class="menu-bar">&#9776</span>
+    <header>
+        <div class="contenido">
+            <img src="img/93_d_fis [Convertido].jpg" class="logo">
+            <nav class="no-responsive">
+                <a href="#inicio">Inicio</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#contacto">Contacto</a>
+                <a href="#portafolio">Proyectos</a>
+                <a href="index-2.html">Portafolio</a>
+            </nav>
+            <nav id="responsive">
+                <a href="#inicio">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+                <a href="#habilidades">
+                    <i class="fa-solid fa-toolbox"></i>
+                </a>
+                <a href="#contacto">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="#portafolio">
+                    <i class="fa-solid fa-folder-open"></i>
+                </a>
+            </nav>
         </div>
-        <ul id="menuDesplegable" class="ul-transition-replegar">
+    </header>
+    <!--S.inicio-->
+    <section id="inicio">
+        <h2>Hola, soy <br>Duvan Felipe Casallas Z</h2>
+        <p>Productor de Multimedia tanto los medios gráficos como audiovisuales, buscando siempre los mejores resultados.</p>
+        <img src="img/Bender Lego borracho - PEGATINAS.jfif" class="foto">
+        <button class="btn">Ver portafolio</button>
+        <!--Indicador-->
+        <div class="indicador">
+            <a href="#inicio" class="selector pintado"></a>
+            <div class="linea"></div>
+            <a href="#habilidades" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#contacto" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#portafolio" class="selector"></a>
+        </div>
+    </section>
+    <!--S.habilidades-->
+    <section id="habilidades">
+        <h3 class="titulo">Habilidades</h3>
+        <hr>
+        <div class="fila">
+            <div class="col">
+                <i class="fa-solid fa-photo-film"></i>
+               <h3>Photoshop</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur exercitationem fugit praesentium nulla explicabo iure recusandae, inventore ducimus enim.</p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-headphones"></i>
+                <h3>Edición en audiovisuales</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur exercitationem fugit praesentium nulla explicabo iure recusandae, inventore ducimus enim.</p>
+             </div>
+             <div class="col">
+                <i class="fa-solid fa-object-group"></i>
+                <h3>Desarrollador de Apps</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur exercitationem fugit praesentium nulla explicabo iure recusandae, inventore ducimus enim.</p>
+             </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+               <i class="fa-solid fa-globe"></i>
+               <h3>Desarrollador Web</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur exercitationem fugit praesentium nulla explicabo iure recusandae, inventore ducimus enim.</p>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-camera"></i>
+                <h3>Fotografía</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur exercitationem fugit praesentium nulla explicabo iure recusandae, inventore ducimus enim.</p>
+             </div>
+             <div class="col">
+                <i class="fa-solid fa-store"></i>
+                <h3>Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur exercitationem fugit praesentium nulla explicabo iure recusandae, inventore ducimus enim.</p>
+             </div>
+        </div>
+        <div class="indicador">
+            <a href="#inicio" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#habilidades" class="selector pintado"></a>
+            <div class="linea"></div>
+            <a href="#contacto" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#portafolio" class="selector"></a>
+        </div>
+    </section>
+    <!--S.contacto-->
+    <section id="contacto">
+        <h3 class="titulo">Contacto</h3>
+        <hr>
+        <form action="">
+            <input type="text" placeholder="Email" class="entrada">
+            <input type="text" placeholder="Mensaje" class="entrada">
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+        <div class="indicador">
+            <a href="#inicio" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#habilidades" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#contacto" class="selector pintado"></a>
+            <div class="linea"></div>
+            <a href="#portafolio" class="selector"></a>
+        </div>
+    </section>
+    <!--S.proyecto-->
+    <section id="portafolio">
+        <h3 class="titulo">Mis proyectos</h3>
+        <hr>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Starbucks.jpg" alt="">
+                <div class="info">
+                    <a href="starbucks.html">Starbucks</a>
+                    <p>Html, Css y JavaScript</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Calendario.jpg" alt="">
+                <div class="info">
+                    <a href="calendario.html">Calendario</a>
+                    <p>Html y Css</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Catalogo.jpg" alt="">
+                <div class="info">
+                    <a href="catalogo.html">Catálogo</a>
+                    <p>Html y Css</p>
+                </div>
+            </div>
+        </div>
+<!--         <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/339458202_784710169445222_3111738892773528437_n (2).jpg" alt="">
+                <div class="info">
+                    <h4>Descripción del proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/abstract-polygons_1280x720_xtrafondos.com.jpg" alt="">
+                <div class="info">
+                    <h4>Descripción del proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/abstract-polygons_1280x720_xtrafondos.com.jpg" alt="">
+                <div class="info">
+                    <h4>Descripción del proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div> -->
+        <div class="indicador">
+            <a href="#inicio" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#habilidades" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#contacto" class="selector"></a>
+            <div class="linea"></div>
+            <a href="#portafolio" class="selector pintado"></a>
+        </div>
+    </section>
 
-        <!--     <li><a href="index.html">Inicio</a></li> -->
-            <li><a href="portafolio-simple.html">Mi-portafolio</a></li>
-            <li><a href="Listas.html">Listas</a></li>
-            <li><a id="padreSubmenu">Fuentes<i id="i" class="fa-solid fa-chevron-right"></i></a>
-                <ul id="submenu" class="submenu-invisible">
-                    <li><a href="Fuentes1.html">Fuente de Game of Thrones</a></li>
-                    <li><a href="Fuentes2.html">Fuente de Netflix</a></li>
-                    <li><a href="Fuentes3.html">Fuente de Disney</a></li>
-                </ul>
-            </li>
-            <li><a href="Colores.html">Colores</a></li>
-            <li><a href="catalogo.html">Catálogo</a></li>
-            <li><a href="margenes.html">Margenes</a></li>
-            <li><a href="Tablas.html">Tabla</a>
-            <li><a id="hijoSubmenu">Menús<i id="o" class="fa-solid fa-chevron-right"></i></a>
-                <ul id="hijomenu" class="submenu-invisible">
-                    <li><a href="menu-horizontal.html">Menú-Horizontal</a></li>
-                    <li><a href="menu-subitems.html">Menú-Subitems-1</a></li>
-                    <li><a href="menu-responsive.html">Menú-Subitems-2</a></li>
-                    <li><a href="menu-responsive.html">Menú-Responsive</a></li>
-                </ul>
-            </li>
-            <li><a href="media-query.html">Media-query</a></li>
-            <li><a href="posicionamiento.html">Posicionamiento</a></li>
-            <li><a href="transition.html">Transición</a></li>
-            <li><a href="calendario.html">Calendario</a></li>
-            <li><a href="Flexbox.html">Flexbox</a></li>    
-            <li><a href="maquetación.html">Maquetación</a></li>
-            <li><a href="maquetación-II.html">MaquetaciónII</a></li>
-            <li><a href="starbucks.html">Starbucks</a></li>
-        </ul>
-    </nav>
+    <footer>
+        <p>Mi portafolio 2023</p>
+    </footer>
 </body>
 </html>
-<script src="js/main.js"></script>

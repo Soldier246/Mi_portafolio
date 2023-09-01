@@ -15,7 +15,12 @@ nav ul {
     position: absolute;
     width: 100%;
 }
-
+nav ul {
+    background-color: rgb(7, 34, 82);
+    list-style: none;
+    position: absolute;
+    width: 100%;
+}
 nav>ul>li {
     width: 250px;
     float: left;

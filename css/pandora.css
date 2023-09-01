@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 65px;
+    display: grid;
+    grid-template: "logo menu" 1fr /
+     1000px    2fr;
+}
+.header-2 {
+    width: 100%;
+    height: 65px;
+    display: grid;
+    grid-template: "logo menu" 1fr /
+     1400px    2fr;
+}
+.logo-pandora {
+    grid-area: logo;
+    width: 100%;
+    height: 100%;
+}
+.img-logo {
+    cursor: pointer;
+    display: flex;
+    width: 120px;
+    position: relative;
+    left: 150px;
+}
+.style-box {
+    display: flex;
+    align-items: center;
+}
+.buscador {
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.input-busqueda {
+    cursor: pointer;
+    position: relative;
+    left: 380px;
+    height: 40px;
+    width: 300px;
+    border: 1px solid rgb(200,200,200);
+    display: flex;
+    flex-direction: row;
+}
+input[type="text"].buscador {
+    height: 40px;
+    width: 300px;
+    padding: 10px 30px;
+    border: none;
+}
+.lupa {
+    color: rgba(200, 200, 200, 0.719);
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"]:focus {
+    outline:none;
+}
+.style-icon {
+    cursor: pointer;
+    font-size: 1.2em;
+    display: flex;
+    position: relative;
+    left: 400px;
+    letter-spacing: 20px;
+    list-style: none;
+    color: rgb(200,200,200);
+}
+.header-2 {
+    background-color: gold;
+    display: grid;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+nav>ul>li {
+    width: 100px;
+    height: 50px;
+    float: left;
+    font-size: 1.1rem;
+  /*   line-height: 70px; */
+    text-align: center;
+    list-style: none;
+}
+.menu {
+    text-decoration: none;
+}
+li {
+    position: relative;
+    align-items: center;
+}
+.box-main-menu {
+    width: 100%;
+    text-align: left; 
+
+}
+.main-menu {
+    display: flex;
+    flex-direction: row;
+}
+.main-menu li {
+    list-style: none;
+    padding: 0 20px;
+}
+.first-li {
+    width: 150px;
+}

@@ -149,6 +149,10 @@ nav>ul li:hover {
     font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
 }
 .rojo {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    text-decoration: none;
     color: rgb(197, 0, 62);
 }
 
@@ -376,11 +380,6 @@ h1 {
     font-weight: 700;
 }
 
-.price-tex2-color {
-    color: rgb(240, 184, 185);
-    font-weight: 700;
-}
-
 .add-cart-2-color {
     width: 280px;
     height: 40px;
@@ -408,11 +407,6 @@ h1 {
     color: rgb(64, 64, 64);
     font-size: 14px;
     font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-    font-weight: 700;
-}
-
-.price-tex1-color {
-    color: rgb(240, 184, 185);
     font-weight: 700;
 }
 
@@ -445,11 +439,6 @@ h1 {
     font-weight: 700;
 }
 
-.price-tex1-color {
-    color: rgb(240, 184, 185);
-    font-weight: 700;
-}
-
 .add-cart-4-color {
     width: 280px;
     height: 40px;
@@ -477,11 +466,6 @@ h1 {
     color: rgb(64, 64, 64);
     font-size: 14px;
     font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-    font-weight: 700;
-}
-
-.price-tex1-color {
-    color: rgb(240, 184, 185);
     font-weight: 700;
 }
 

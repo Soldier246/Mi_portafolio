@@ -2,25 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
 header {
     width: 100%;
     height: 65px;
     display: grid;
     grid-template: "logo menu" 1fr /
-     835px    1fr;
+     350px    1fr;
 }
-.header-2 {
-    width: 100%;
-    height: 65px;
-    display: grid;
-    grid-template: "logo menu" 1fr /
-     1400px    1fr;
-}
-.logo-pandora {
-    grid-area: logo;
-    width: 100%;
-    height: 100%;
-}
+
 .img-logo {
     cursor: pointer;
     display: flex;
@@ -28,121 +18,152 @@ header {
     position: relative;
     left: 80px;
 }
+
 .style-box {
     display: flex;
     align-items: center;
 }
+
 .buscador {
     align-items: center;
     justify-content: flex-start;
     display: flex;
     box-sizing: border-box;
-    /* padding: 10px; */
 }
+
 .input-busqueda {
     cursor: pointer;
-    position: relative;
-    left: 387px;
-    height: 40px;
-    width: 390px;
-    border: 1px solid rgb(200, 200, 200);
+    height: 35px;
+    width: 388px;
     display: flex;
+    position: relative;
+    left: 56.9%;
+    border: 1px solid rgb(200, 200, 200);
     flex-direction: row;
 }
+
 input[type="text"].buscador {
-    height: 40px;
+    height: 35px;
     width: 300px;
     padding: 10px 20px;
     border: none;
 }
+
 .lupa {
-    color: rgba(3, 3, 3, 0.644);
+    color: rgba(3, 3, 3, 0.411);
     width: 42px;
-    height: 40px;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 input[type="text"]:focus {
     outline:none;
+}
+
+.icons {
+    display: flex;
+    position: absolute;
+    left: 87.1%;
+    top: 20px;
 }
 .style-icon {
     cursor: pointer;
     font-size: 1.3em;
-    display: flex;
-    position: relative;
-    left: 410px;
-    letter-spacing: 25px;
+    letter-spacing: 10px;
     list-style: none;
     color: rgb(200,200,200);
 }
-
-a {
-    font-weight: 600;
-    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-    text-decoration: none;
-    color: #3f3f40;
+/* Sección menu desplegable */
+nav {
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+    background-color: white;
+    height: 62px;
 }
+
+nav ul {
+    display: flex;
+    padding-left: 1rem;
+    list-style: none;
+    width: 100%;
+}
+
 nav>ul>li {
-    width: 100px;
-    height: 100px;
+    display: flex;
     float: left;
-    font-size: 1.1rem;
-    line-height: 70px;
+    line-height: 26px;
     text-align: center;
     list-style: none;
+    padding-left: 18.2px;
 }
 
-.box-main-menu {
-    font-size: 14px;
-    height: 65px;
-    width: 100%;
-    text-align: left;
-    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-    font-weight: 400;
-    padding-left: 3.9rem;
+li {
+    position: relative;
+}
+
+nav>ul li:hover {
     cursor: pointer;
+
 }
-.main-menu {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    height: 65px;
-    justify-content: flex-start;
-}
-.main-menu li {
-    list-style: none;
-    padding: 0 6.4px;
-}
-.first {
-    font-size: 14px;
-    color: #c5003e;
-}
-.first-li {
-    width: 90px;
-    height: 27px;
-    font-size: 14px;
+
+.rosa {
+    position: relative;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
     font-weight: 700;
-    background-color: #c5003e;
-    color: white;
+    font-size: 14px;
+    color: #27251f;
+    text-decoration: none;
 }
-#flecha {
-    justify-content: center;
-    rotate: 90deg;
+
+.rosa:hover {
+    border-bottom: 2px solid rgb(255, 192, 203);
+}
+#x {
+    flex-direction: column;
+    position: relative;
+    bottom: 4px;
     margin-left: 5px;
-    font-size: 11px;
+    rotate: 90deg;
+    font-size: 8px;
     color: #3f3f40;
 }
+.Primer {
+    position: relative;
+    width: 103px;
+    height: 26px;
+    background-color:rgb(197, 0, 62);
+    display: flex;
+    float: left;
+    align-items: center;
+}
+.Primer-span {
+    position: relative;
+    left: 3px;
+    font-size: 14px;
+    color:white;  
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+}
+.rojo {
+    color: rgb(197, 0, 62);
+}
+
 .box-rosa {
     width: 100%;
 }
+
 .box-rosa-promo {
-    background: pink;
+    background-color: rgb(255, 192, 203);
     color: #27251f;
     text-align: center;
     height: 40px;
     position: relative;
 }
+
 .box-rosa-span {
     display: flex;
     width: 72%;
@@ -152,127 +173,335 @@ nav>ul>li {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
 h1 {
-    font-weight: 700;
-    font-size: 18px;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    position: relative;
+    right: 55px;
+    font-weight: 100;
+    font-size: 16px;
     width: 70%;
     padding: 0 1.5rem;
 }
-.apeque {
-    color:#27251f;
-    /* font-weight: 700; */
+
+.ver-mas {
+    cursor: pointer;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    color: #27251f;
+    font-weight: 700;
+    font-size: 17px;
 }
-.barra-1{
-    top: 15px;
-    position: relative;
-    left: 66%;
-    background-color: #FFF;
-    width: 15%;
-    height: 10px;
-    border-radius: 10px 10px 10px 10px;
-}
-.barra-2{
-    position: relative;
-    width: 7PX;
-    background-color: black;
-    height: 10px;
-    border-radius: 10px 10px 10px 10px;
-}
+
 .text-r {
     display:flex;
     position: relative;
     bottom: 15px;
-    right: 50px;
-    color: black;
+    right: 52px;
+    color: #27251f;
 }
+.barra-1 {
+    top: 15px;
+    position: relative;
+    left: 63.1%;
+    background-color: #FFF;
+    width: 16.6%;
+    height: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.barra-2 {
+    position: relative;
+    width: 5px;
+    background-color: black;
+    height: 10px;
+    border-radius: 20px 10px 10px 20px;
+}
+
 .text-r1 {
     display:flex;
     position: relative;
     bottom: 35px;
-    left: 270px;
-    color: black;
+    left: 297px;
+    color: #27251f;
 }
-/* .image-big {
+
+.content-slider {
+    width: 100%;
+}
+.slider {
     display: flex;
-    position: relative;
-    align-items: center;
-    justify-self: center;
-    width: 70%;
-} */
+    justify-content: center;
+}
+.image-big {
+    width: 1370px;
+}
+/* terminos y condiciones */
 .TyC-promo {
     list-style: none;;
     display: flex;
+    position: relative;
     justify-content: center;
-    width: 100%; 
+    width: 100%;
     margin-inline: auto;
     font-size: 16px;
 }
-.text-pp {   
+
+.text-pp {
+    display: flex;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+    color: #000;
     font-weight: 700;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
 }
+
+.amoryamistad {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.aya {
+    display: flex;
+    color: #3f3f40;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+    text-transform: none;
+    letter-spacing: 0;
+}
+.aya-p {
+    color: #3f3f40;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.ayar {
+    background-color: #f2a1b2;
+}
+
 .main-box {
     width: 100%;
     height: 572px;
     display: flex;
     justify-content: center;
 }
+
 .box-style {
     width: 300px;
     background-color: rgb(246,246,246);
     padding-top: 0.5px;
     margin: 0px 3px;
 }
+
 .product-box {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 25px;
 }
+
 .img-colgante {
     width: 250px;
     height: 250px;
 }
-.add-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 40px;
-    cursor: pointer;
-}
-.add-card-1-color {
-    background-color: rgb(240, 184, 185);
-}
+
 .product-text {
     text-align: center;
 }
+
 .product-text-span {
-    margin-bottom: 0;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    margin-left: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    font-size: 1.3em;
-    font-weight: 900;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
     color: rgb(64, 64, 64, .9);
 }
-.text-description {
-    color: rgb(64, 64, 64, .9);
-    font-size: .8em;
-} 
-.add-card-1-span {
-    background-color: transparent;
-    color: black;
-    font-weight: 100;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
-}
+
 .price-text {
-    font-size: 1.5em;
-    margin: 0px 0px 20px 0px;
-    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
 }
+
+.text-description-1 {
+    display: block;
+    text-align: initial;
+    margin-left: 10px;
+    color: rgb(64, 64, 64);
+    font-size: 14px;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight: 700;
+}
+
 .price-tex1-color {
     color: rgb(240, 184, 185);
-    font-weight: bolder;
+    font-weight: 700;
 }
+
+.add-cart-1-color {
+    width: 280px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    top: 110px;
+    align-items: center;
+    justify-content: center;
+    left: 10px;
+    background-color: rgb(240, 184, 185);
+}
+
+.add-cart-1-span {
+    color: black;
+    font-weight: 700;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-size: 14px;
+}
+
+.text-description-2 {
+    padding-bottom: 15px;
+    display: block;
+    text-align: initial;
+    margin-left: 10px;
+    color: rgb(64, 64, 64);
+    font-size: 14px;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight: 700;
+}
+
+.price-tex2-color {
+    color: rgb(240, 184, 185);
+    font-weight: 700;
+}
+
+.add-cart-2-color {
+    width: 280px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    top: 110px;
+    align-items: center;
+    justify-content: center;
+    left: 10px;
+    background-color: rgb(240, 184, 185);
+}
+
+.add-cart-2-span {
+    color: black;
+    font-weight: 700;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-size: 14px;
+}
+
+.text-description-3 {
+    padding-bottom: 15px;
+    display: block;
+    text-align: initial;
+    margin-left: 10px;
+    color: rgb(64, 64, 64);
+    font-size: 14px;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight: 700;
+}
+
+.price-tex1-color {
+    color: rgb(240, 184, 185);
+    font-weight: 700;
+}
+
+.add-cart-3-color {
+    width: 280px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    top: 110px;
+    align-items: center;
+    justify-content: center;
+    left: 10px;
+    background-color: rgb(240, 184, 185);
+}
+
+.add-cart-3-span {
+    color: black;
+    font-weight: 700;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-size: 14px;
+}
+
+.text-description-4 {
+    display: block;
+    text-align: initial;
+    margin-left: 10px;
+    color: rgb(64, 64, 64);
+    font-size: 14px;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight: 700;
+}
+
+.price-tex1-color {
+    color: rgb(240, 184, 185);
+    font-weight: 700;
+}
+
+.add-cart-4-color {
+    width: 280px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    top: 110px;
+    align-items: center;
+    justify-content: center;
+    left: 10px;
+    background-color: rgb(240, 184, 185);
+}
+
+.add-cart-4-span {
+    color: black;
+    font-weight: 700;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-size: 14px;
+}
+
+.text-description-5 {
+    padding-bottom: 32px;
+    display: block;
+    text-align: initial;
+    margin-left: 10px;
+    color: rgb(64, 64, 64);
+    font-size: 14px;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-weight: 700;
+}
+
+.price-tex1-color {
+    color: rgb(240, 184, 185);
+    font-weight: 700;
+}
+
+.add-cart-5-color {
+    width: 280px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    top: 110px;
+    align-items: center;
+    justify-content: center;
+    left: 10px;
+    background-color: rgb(240, 184, 185);
+}
+
+.add-cart-5-span {
+    color: black;
+    font-weight: 700;
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-size: 14px;
+}
+
+

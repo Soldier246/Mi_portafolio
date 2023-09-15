@@ -228,10 +228,45 @@ h1 {
 .content-slider {
     width: 100%;
 }
+
 .slider {
     display: flex;
     justify-content: center;
 }
+
+.button-left {
+    display: flex;      
+    position: relative;  
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 28px;
+    height:28px;
+    top: 266px;
+    right: 206px;
+    background-color: white;
+}
+.button-right {    
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    top: 266px;
+    left: 206px;
+    background-color: white;
+}
+#button-left {
+    font-size: 28px;
+    color: pink;
+}
+#button-right {
+    font-size: 28px;
+    color: pink;
+}
+
 .image-big {
     width: 1370px;
 }

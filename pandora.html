@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pandora</title>
+    <link rel="website icon" type="png" href="img/pandora.svg">
     <link rel="stylesheet" href="css/pandora.css">
     <link rel="stylesheet" href="icons/all.css">
 </head>
@@ -64,20 +65,21 @@
         </div>
      </div>
 
-    <section class="content-slider">
-        <div class="slider">
-            <button class="button-left"> 
-                <i   href="#" id="button-left" class="fa-solid fa-chevron-left"></i></a>
-            </button>       
-                <img class="image-big" src="https://pandoraco.vtexassets.com/assets/vtex.file-manager-graphql/images/ceb1826e-2710-437d-916e-6f261786e739___a064d1385d0e64a2404fb18effc96ae5.png">
-<!--                 <img class="image-big" src="https://pandoraco.vtexassets.com/assets/vtex.file-manager-graphql/images/e4939bcb-8d0a-4535-81b5-a22085b3907f___8db42946391d288165358e24fb937fdd.gif">
-                <img class="image-big" src="https://pandoraco.vtexassets.com/assets/vtex.file-manager-graphql/images/b211cf12-b9a8-42d6-8058-697bb5b0a15e___e6f45e99d2360e258babaf6ab7d85b1c.gif"> -->
-            <button class="button-right">
-                <i   href="#" id="button-right" class="fa-solid fa-chevron-right"></i></a>
-            </button>          
-        </div>   
-     </section>
-
+    <div id="boxCarousel" class="box-carousel box-carousel-1">
+        <div class="carousel">
+            <i id="iconChevronLeft" class="icon-chevron-left fa-solid fa-chevron-left"></i>
+            <i id="iconChevronRight" class="icon-chevron-right fa-solid fa-chevron-right"></i>
+            <div class="box-img-carousel">
+                <img class="img-carousel" src="https://pandoraco.vtexassets.com/assets/vtex.file-manager-graphql/images/ceb1826e-2710-437d-916e-6f261786e739___a064d1385d0e64a2404fb18effc96ae5.png" alt="">
+            </div>
+            <div class="box-img-carousel">
+                <img class="img-carousel" src="https://pandoraco.vtexassets.com/assets/vtex.file-manager-graphql/images/e4939bcb-8d0a-4535-81b5-a22085b3907f___8db42946391d288165358e24fb937fdd.gif" alt="">
+            </div>
+            <div class="box-img-carousel">
+                <img class="img-carousel" src="https://pandoraco.vtexassets.com/assets/vtex.file-manager-graphql/images/b211cf12-b9a8-42d6-8058-697bb5b0a15e___e6f45e99d2360e258babaf6ab7d85b1c.gif" alt="">
+            </div>
+        </div>
+    </div>
     <div>
         <div class="TyC-promo">
             <span>
@@ -174,5 +176,13 @@
         </div>
      </div>
 
+     <div>
+        <div class="D.pandora">
+            <section class="componentes">
+                
+            </section>
+        </div>
+     </div>
+     <script src="js/pandora.js"></script>
 </body>
 </html>

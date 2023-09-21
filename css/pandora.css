@@ -230,6 +230,7 @@ h1 {
 }
 
 .box-carousel {
+    margin-top: 8px;
     width: 400%;
     overflow: hidden;
     position: relative;
@@ -250,29 +251,32 @@ h1 {
   .carousel {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    height: calc(100vh - 394px);
+    flex-direction: row;
+    /* height: calc(100vh - 394px); */
   }
   .box-img-carousel {
     height: calc(100% - 25px);
     width: 25%;
   }
   .img-carousel {
-    width: 100%;
-    height: 100%;
+    display: flex;
+    position: relative;
+    left: 246px;
+    width: 74%;
+    /* height: 100%; */
     object-fit: cover;
   }
   .icon-chevron-left, .icon-chevron-right {
-    font-size: 3em;
+    font-size: 1.7em;
     color: pink;
     position: fixed;
-    top: 500px;
+    top: 437px;
   }
   .icon-chevron-left {
-    left: 20px;
+    left: 10px;
   }
   .icon-chevron-right {
-    right: 20px;
+    right: 10px;
   }  
 /* terminos y condiciones */
 .TyC-promo {

@@ -269,14 +269,14 @@ h1 {
   .icon-chevron-left, .icon-chevron-right {
     font-size: 1.7em;
     color: pink;
-    position: fixed;
-    top: 437px;
+    position: relative;
+    top: 237px;
   }
   .icon-chevron-left {
-    left: 10px;
+    left: 20px;
   }
   .icon-chevron-right {
-    right: 10px;
+    right: 20px;
   }  
 /* terminos y condiciones */
 .TyC-promo {

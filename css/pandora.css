@@ -524,4 +524,56 @@ h1 {
     font-size: 14px;
 }
 
+.Descubre-p {
+    max-width: 1200px;
+    margin: 4rem auto;
+}
 
+.container {
+    justify-content: space-between;
+}
+
+.container-sub {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25%;
+}
+
+.container-text{
+    font-family: PD,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+}
+
+.text-M {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text-P{
+    font-size: 14PX;
+}
+
+.Descubre-2{
+    width: 70%;
+}
+
+.container-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-box{
+    justify-content: center;
+}
+.container-1-box {
+    background-color: #f6f6f6;
+    margin: 5px 10px;
+    height: 136px;
+}
+
+.text-D-P {
+    font-size: 12px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffcad4;
+    padding: 6px;
+}

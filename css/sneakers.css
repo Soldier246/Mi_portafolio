@@ -11,7 +11,48 @@ header {
 
 .main-content {
     display: grid;
-    grid-template:"empty-left box-img empty-center box-info empty right" 400px /
-                    240px       1fr       180px       1fr       240px;
+    grid-template:"empty-left box-left empty-center box-info empty-right" 400px /
+                    240px     1fr      180px        1fr       240px;
+}
+.box-left {
+    grid-area: box-left;
+    grid-template: "box-img"
+                    "box-thumbnail" /
+                    1fr;
+}
+.box-img {
+    grid-area: box-img;
 }
 
+.main-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.box-thumbnail {
+    grid-area: box-thumbnail;
+    display: grid;
+    grid-template: "thumb-1 thumb-2 thumb-3 thumb-4" /
+                    1fr     1fr     1fr      1fr
+}
+
+.thumb-1 {
+    grid-area: thumb-1;
+}
+.thumb-2 {
+    grid-area: thumb-2;
+}
+.thumb-3 {
+    grid-area: thumb-3;
+}
+.thumb-4 {
+    grid-area: thumb-4;
+}
+.thumb {
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+}
+.box-info {
+    grid-area: box-info;
+}

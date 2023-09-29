@@ -252,18 +252,18 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* height: calc(100vh - 394px); */
+    height: calc(100% - 394px);
   }
   .box-img-carousel {
-    height: calc(100% - 25px);
+    height: calc(100vh - 416px);
     width: 25%;
   }
   .img-carousel {
     display: flex;
     position: relative;
     left: 246px;
-    width: 74%;
-    /* height: 100%; */
+    /* width: 70%; */
+    height: 100%;
     object-fit: cover;
   }
   .icon-chevron-left, .icon-chevron-right {
@@ -554,26 +554,3 @@ h1 {
     font-size: 14PX;
 }
 
-.Descubre-2{
-    width: 70%;
-}
-
-.container-img {
-    display: flex;
-    flex-wrap: wrap;
-}
-.container-box{
-    justify-content: center;
-}
-.container-1-box {
-    background-color: #f6f6f6;
-    margin: 5px 10px;
-    height: 136px;
-}
-
-.text-D-P {
-    font-size: 12px;
-    text-transform: uppercase;
-    border-bottom: 1px solid #ffcad4;
-    padding: 6px;
-}

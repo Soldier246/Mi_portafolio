@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: violet;
+}
+
+.main-content {
+    display: grid;
+    grid-template:"empty-left box-img empty-center box-info empty right" 400px /
+                    240px       1fr       180px       1fr       240px;
+}
+

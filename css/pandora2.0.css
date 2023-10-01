@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    height: 200vh;
+    width: 1900px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+}
+
+.logo-pandora {
+    width: 130px;
+}
+
+.svg-search {
+    width: 17px;
+    padding: 10px 10px;
+}
+
+.div-search {
+    width: 300px;
+    height: max-content;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    border: 1px solid black;
+}
+
+.input-search {
+    border: unset;
+    padding: 5px 15px 5px 0px;
+}
+
+.input-search:focus {
+    outline: none;
+}
+
+.icon-lupa {
+    width: 30px;
+    fill: rgb(0, 0, 0);
+}
+
+.div-icon-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-icons {
+    display: flex;
+    width: max-content;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+}
+
+.icons {
+    width: 20px;
+}
+
+.div-search-icons {
+    display: flex;
+}
+
+.search {
+    padding: 10px 20px 10px 80px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border-bottom: 2px solid rgb(242, 171, 168);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    height: max-content;
+    align-items: center;
+    margin-left: 30px;
+    height: 70px;
+
+}
+
+a,
+h4 {
+    display: block;
+    padding: 5px 0px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    height: max-content;
+}
+
+.arma-tu-set {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+}
+
+.last-chance {
+    color: red;
+}
+
+nav ul li>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-chevron-nav {
+    width: 10px;
+
+}
+
+nav ul li {
+    word-break: break-all;
+}
+
+li {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-menu {
+    display: flex;
+    position: absolute;
+    width: calc(100% - 100px);
+    top: 100%;
+    left: 0;
+    padding: 0px 50px;
+    border-bottom: 2px solid rgb(169, 169, 169);
+    gap: 90px;
+    display: none;
+    background-color: white;
+}
+
+.div-section-items {
+    width: max-content;
+}
+
+.item-section-h4 {
+    font-size: 1.3em;
+}
+
+nav ul li>a:hover {
+    border-bottom: 2px solid rgb(242, 171, 168);
+    margin-top: 12px;
+}
+
+nav ul li:hover .items-menu {
+    display: flex;
+}
+
+.oferta {
+    background-color: rgb(255, 192, 203);
+}
+
+.barra-oferta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-range {
+    width: 300px;
+}
+
+.oferta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.h6-oferta {
+    font-size: 1.1em;
+    font-weight: 100;
+}
+
+.ver-mas {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.input-range {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 15px;
+    padding: 0;
+}
+
+.input-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: black;
+    border-radius: 100%;
+    height: 15px;
+    padding: 0;
+    width: 15px;
+    cursor: pointer;
+}
+
+.contenido {
+    padding: 8px 0px 0px 0px;
+
+}
+
+.div-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.div-carrusel {
+    height: 500px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.div-img-slider {
+    flex: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: margin 0.5s;
+}
+
+.imgSlider {
+    width: 1000px;
+    height: 100%;
+}
+
+.icon-chevron-left,
+.icon-chevron-right {
+    width: 40px;
+    fill: pink;
+    cursor: pointer;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.icon-chevron-left {
+    rotate: 90deg;
+}
+
+.icon-chevron-right {
+    rotate: -90deg;
+}

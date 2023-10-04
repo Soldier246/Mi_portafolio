@@ -4,6 +4,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
 .content-center {
     display: flex;
     justify-content: center;
@@ -11,7 +12,7 @@
 }
 
 .content {
-    height: 200vh;
+    height: 400vh;
     width: 1900px;
 }
 
@@ -89,7 +90,7 @@ nav ul {
     align-items: center;
     margin-left: 30px;
     height: 70px;
-    
+
 }
 
 a,
@@ -227,10 +228,11 @@ nav ul li:hover .items-menu {
     justify-content: center;
     align-items: center;
     position: relative;
+    width: 100%;
 }
 
 .div-carrusel {
-    height: 500px;
+    height: 410px;
     display: flex;
     width: 100%;
     overflow: hidden;
@@ -246,11 +248,10 @@ nav ul li:hover .items-menu {
     width: 100%;
     height: 100%;
     position: absolute;
-    transition: margin 0.5s;
 }
 
 .imgSlider {
-    width: 1000px;
+    width: 1100px;
     height: 100%;
 }
 
@@ -269,4 +270,220 @@ nav ul li:hover .items-menu {
 
 .icon-chevron-right {
     rotate: -90deg;
+}
+
+.content-carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game-of-thrones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.terminos {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.div-items-catalogo {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.item-catalogo {
+    width: calc(100% - 20px);
+    padding: 10px 10px;
+    background-color: rgb(246, 246, 246);
+}
+
+.img-item-catalogo {
+    width: 100%;
+}
+
+.div-img-item-catalogo-footer {
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-footer-item-catalogo {
+    width: 200%;
+}
+
+.comprar-ahora-item-catalogo {
+    background-color: rgb(255, 202, 212);
+    width: 100%;
+    padding: 8px 0px;
+    border: unset;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.div-precio-item-catalogo {
+    text-align: center;
+}
+
+.div-descripcion-item-catalogo {
+    margin-bottom: 60px;
+}
+
+.h4-title-item-catalogo {
+    margin: unset;
+}
+
+.div-precio-item-catalogo {
+    font-size: 1.3em;
+}
+
+.div-icon-heart-item-catalogo {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.div-img-item-catalogo {
+    margin: 20px 0px;
+}
+
+.fa-heart {
+    color: pink;
+    font-size: 1.7em;
+}
+
+.title-main-item-catalogo {
+    font-size: 1.8em;
+    margin: 40px 0px 40px 0px;
+    font-weight: 600;
+}
+
+.div-section-items a {
+    font-weight: lighter;
+    padding: 3px;
+}
+
+.anuncio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+.ver-ahora {
+    color: pink;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.div-img-descubre-pandora {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.descubre-pandora {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.sesion-especial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.content-img-descubre-pandora {
+    padding: 0px 22px 22px 25px;
+    background-color: rgb(246, 246, 246);
+    width: 80px;
+    cursor: pointer;
+}
+.content-img-descubre-pandora:hover{
+    transition: all 0.5s;
+    box-shadow: 0px 6px 30px 0px rgb(228, 228, 228);;
+}
+.content-sesion-especial {
+    width: 80%;
+    height: max-content;
+}
+
+.img-descubre-pandora {
+    width: 100%;
+}
+
+.title-img-descubre-pandora {
+    border-bottom: 1px solid pink;
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+    font-size: 1.3vh;
+}
+.img-content-descubre-pandora{
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+}
+.info-descubre-pandora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h5-descubre-pandora{
+    font-size: 1.7em;
+    font-weight: 600;
+}
+.h6-descubre-pandora{
+    font-weight: 500;
+    font-size: 0.8em;
+}
+.img-descubrir{
+    width: 170px;
+}
+.img-iroman{
+    width: 190px;
+}
+.div-img-section-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.div-img-descubrir{
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.h6-descubrir-img{
+    font-size: 1em;
+}
+.input-descubrir-img{
+    border: unset;
+    background-color: white;
+    padding: 10px 10px;
+    border-bottom: 1px solid pink;
+    cursor: pointer;
+}
+.div-descubrir{
+    padding-bottom: 40px;
 }

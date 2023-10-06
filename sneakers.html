@@ -5,32 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sneakers</title>
     <link rel="stylesheet" href="css/sneakers.css">
+    <link rel="stylesheet" href="icons/all.css">
 </head>
 <body>
-    <header>
-            <div class="header-navigation">
-                <img src="img/Sneakers/logo.svg" alt="">
-                <nav class="nav-items">   
-                    <ul class="header-items">
-                        <li class="a-items">Collections</li>
-                        <li class="a-items">Men</li>
-                        <li class="a-items">Women</li>
-                        <li class="a-items">About</li>
-                        <li class="a-items">Contact</li>
-                    </ul>
-                </nav>
-                <div class="header-avatar-cart">           
-                    <div class="header-cart">
-                        <img src="img/Sneakers/icon-cart.svg" alt="">
-                    </div>
-                    <img class="header-avatar" src="img/Sneakers/image-avatar.png" alt="">
-                </div>   
-            </div>  
-    </header>
+    <header></header>
+    <div class="box-img-fixed">
+        <div class="box-img-selected">
+            <img id="mainImgFixed1" class="main-img-fixed" src="img/Sneakers/image-product-1.jpeg" alt="">
+            <img id="mainImgFixed2" class="main-img-fixed img-hidden" src="img/Sneakers/image-product-2.jpeg" alt="">
+            <img id="mainImgFixed3" class="main-img-fixed img-hidden" src="img/Sneakers/image-product-3.jpeg" alt="">
+            <img id="mainImgFixed4" class="main-img-fixed img-hidden" src="img/Sneakers/image-product-4.jpeg" alt="">
+            <div id="iconLeft" class="box-icons box-icons-left">
+                <i class="icon-style fa-solid fa-chevron-left"></i>
+            </div>
+            <div id="iconRight" class="box-icons box-icons-right">
+                <i class="icon-style fa-solid fa-chevron-right"></i>
+            </div>
+        </div>  
+    </div>
     <div class="main-content">
         <div class="box-left">
             <div class="box-img">
-                <img class="main-img" src="img/Sneakers/image-product-1.jpeg" alt="">
+                <img id="mainImg" class="main-img" src="img/Sneakers/image-product-1.jpeg" alt="">
             </div>
             <div class="box-thumbnail">
                 <img class="thumb thumb-1" src="img/Sneakers/image-product-1.jpeg" alt="">
@@ -41,5 +37,6 @@
         </div>
         <div class="box-info"></div>
     </div>
+    <script src="js/sneakers.js"></script>
 </body>
 </html>

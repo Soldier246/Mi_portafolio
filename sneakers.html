@@ -9,7 +9,7 @@
 </head>
 <body>
     <header></header>
-    <div class="box-img-fixed">
+    <div id="boxImgFixed" class="box-img-fixed-hidden">
         <div class="box-img-selected">
             <img id="mainImgFixed1" class="main-img-fixed" src="img/Sneakers/image-product-1.jpeg" alt="">
             <img id="mainImgFixed2" class="main-img-fixed img-hidden" src="img/Sneakers/image-product-2.jpeg" alt="">
@@ -21,6 +21,9 @@
             <div id="iconRight" class="box-icons box-icons-right">
                 <i class="icon-style fa-solid fa-chevron-right"></i>
             </div>
+            <div id="botonCerrar" class="box-boton-cerrar">
+                <span class="boton-cerrar">X</span>
+            </div>
         </div>  
     </div>
     <div class="main-content">
@@ -29,10 +32,18 @@
                 <img id="mainImg" class="main-img" src="img/Sneakers/image-product-1.jpeg" alt="">
             </div>
             <div class="box-thumbnail">
-                <img class="thumb thumb-1" src="img/Sneakers/image-product-1.jpeg" alt="">
-                <img class="thumb thumb-2" src="img/Sneakers/image-product-2.jpeg" alt="">
-                <img class="thumb thumb-3" src="img/Sneakers/image-product-3.jpeg" alt="">
-                <img class="thumb thumb-4" src="img/Sneakers/image-product-4.jpeg" alt="">
+                <div class="box-thumb">
+                    <img id="thumb1" class="thumb thumb-1" src="img/Sneakers/image-product-1.jpeg" alt="">
+                </div>
+                <div class="box-thumb">
+                    <img id="thumb2" class="thumb thumb-2" src="img/Sneakers/image-product-2.jpeg" alt="">
+                </div>
+                <div class="box-thumb">
+                    <img id="thumb3" class="thumb thumb-3" src="img/Sneakers/image-product-3.jpeg" alt="">
+                </div>
+                <div class="box-thumb">
+                    <img id="thumb4" class="thumb thumb-4" src="img/Sneakers/image-product-4.jpeg" alt=""> 
+                </div>
             </div>
         </div>
         <div class="box-info"></div>

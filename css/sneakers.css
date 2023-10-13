@@ -27,6 +27,7 @@ header {
 }
 
 .main-img {
+    cursor: pointer;
     width: 100%;
     border-radius: 20px;
 }
@@ -38,7 +39,7 @@ header {
     width: 50px;
     height: 50px;
     border-radius: 25px;
-    background-color: wheat;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,6 +75,27 @@ header {
     align-items: center;
     justify-content: center;
 }
+.box-img-fixed-hidden {
+    display: none;
+}
+.box-boton-cerrar {
+    position: fixed;
+    color: white;
+    background-color: gray;
+    border-radius: 30px;
+    font-size: 2em;
+    font-weight: 400;
+    font-family: sans-serif;
+    top: 20%;
+    left: 65%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
 .box-img-selected {
     width: 500px;
     height: 500px;
@@ -98,9 +120,25 @@ header {
     grid-area: thumb-4;
 }
 .thumb {
+    cursor: pointer;
     width: 100%;
     border-radius: 30px;
-    padding: 15px;
+   /*  padding: 15px; */
+    z-index: 10;
+    position: relative;
+}
+.thumb:hover {
+    opacity: 0.7;
+}
+.box-thumb {
+    margin: 15px;
+}
+.box-thumb:hover {
+    position: relative;
+    background-color: rgba(0,0,0,.9);
+    z-index: 20;
+    height: 127px;
+    border-radius: 30px;  
 }
 .box-info {
     grid-area: box-info;

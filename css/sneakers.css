@@ -197,21 +197,96 @@ header {
     height: 103px;
     border-radius: 10px;  
 }
+
 .box-info {
     grid-area: box-info;
     display: flex;
     align-items: center;
 }
+
 .title-info-1 {
     color: rgb(255,155,26);
     font-size: .8em;
 }
+
 .title-info-2 {
     font-size: 3em;
 }
+
 .texto-producto {
     margin-top: 40px;
     color: rgb(128,128,130);
     line-height: 1.5em;
     font-weight: 500;
+}
+
+.box-precio {
+    display: flex;
+    flex-direction: row;
+}
+
+.precio {
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 2.1em;
+}
+
+.descuento {
+    display: flex;
+    align-items: flex-end;
+    font-weight: 600;
+}
+
+.lbl-descuento {
+    background-color: rgb(255,237,224);
+    padding: 5px 8px;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+    color: rgb(255,125,26);
+}
+
+.box-precio-sin-dec {
+    color: rgb(140,140,140,.9);
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 1.1em;
+    text-decoration: line-through;
+}
+
+.box-minus-plus {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    background-color: rgb(255,237,224);
+    border-radius: 10px;
+}
+
+.box-minus, .box-cantidad, .box-plus {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.box-minus, .box-plus {
+    color: rgb(255,125,26);
+    cursor: pointer;
+}
+.box-minus:hover {
+    background-color: rgba(128, 128, 130, 0.527);
+    border-radius: 10px;
+}
+.box-plus:hover {
+    background-color: rgba(128, 128, 130, 0.527);
+    border-radius: 10px;
+}
+.valor-total {
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 4em;
 }

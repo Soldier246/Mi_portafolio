@@ -47,7 +47,7 @@ header .contenido nav a:hover{
 }
 /*S.inicio*/
 section{
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     height: 90vh;
     position: relative;
@@ -162,10 +162,14 @@ section{
     justify-content: space-between;
 }
 #portafolio .fila .proyecto {
-    border-radius: 20px 20px 20px 20px;
-    margin: 0 10px;
+    border-radius: 20px;
+    margin: 0 20px;
     position: relative;
     overflow: hidden;
+    transition: 0.4s;
+}
+#portafolio .fila .proyecto:hover {
+    transform: scale(1.1);
 }
 #portafolio .fila .proyecto img {
     width: 100%;

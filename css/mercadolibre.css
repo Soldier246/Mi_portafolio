@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: grid;
+    height: 50px;
+    background-color: rgb(255,241,89);
+    grid-template-columns: 70px 1fr 40px 40px;
+}
+.box-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 45px;
+}
+
+.box-busqueda {
+    display: flex;
+    align-items: center;
+}
+
+.box-busqueda input[type="text"] {
+    outline: none;
+    width: 100%;
+    height: 35px;
+    border: 0;
+    font-size: .9em;
+}
+.box-icon-busqueda {
+    background-color: white;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+.icon-busqueda {
+    color: rgb(96,96,96,.9);
+    font-size: .8em;
+}
+
+input[type="text"]::placeholder {
+    color: rgb(96,96,96,.9);
+}
+
+.icon-style {
+    font-size: 1.3em;
+    color: rgb(96,96,96,.9);
+}
+
+.menu-hamburguesa, .carrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-producto {
+    width: 100%;
+    height: 140px;
+    background-color: darkcyan;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+}
+.box-img-producto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-producto {
+    width: 90%;
+}

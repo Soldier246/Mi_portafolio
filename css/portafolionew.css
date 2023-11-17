@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "poppins";
+    outline: none;
+    border: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    background: black;
+    color: white;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+.Logo{
+    font-size: 1.7rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 4rem;
+    font-family: 1.7rem;
+}
+.navbar a:hover, .navbar a.active{
+    color: #ef6e12;
+}
+#menu{
+    font-size: 3.6rem;
+    display: none;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.home-detail h1{
+    font-size: 5.6rem;
+    font-weight: 700;
+    margin: -3px 0;
+    opacity: 1;
+}
+.home-detail p{
+    font-size: 1.6rem;
+    opacity: 1;
+}
+.social-media a{
+    display: inline-flex;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    color: #ef6e12;
+    font-size: 2rem;
+    border: 2px solid #ef6e12;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+.social-media a:hover, .social-media a.active{
+    background: #ef6e12;
+    color: black;
+    box-shadow: 0 0 20px #ef6e12;
+}
+.home-detail h3:nth-of-type(2){
+    margin-bottom: 2rem;
+}
+span{
+    color: #ef6e12;
+}
+.btn{
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 1rem 2.8rem;
+    border-radius: 40px;
+    color: black;
+    background-color: #ef6e12;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    transition: .5s ease;
+}
+.btn:hover {
+    background-color: black;
+    color: #ef6e12;
+    border: 1px solid #ef6e12;
+}
+.home .home-img img{
+    width: 35vw;
+}
+
+.about-img img {
+    width: 35vw;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.allheading{
+    text-align: center;
+    font-size: 4.5rem;
+}
+.about-section h2{
+    text-align: left;
+    line-height: 1.2;
+}
+.about-section h3{
+    font-size: 2.6rem;
+}
+.about-section p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}

@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contenido{
+    /* padding: 2vw; */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(135, 166, 194);
+}
+.galeria{
+    background-image:url("../img/Imagenes.trabajos/Fondogaleria-2.jpg");
+    padding: 2vw;
+    /* background-color: rgb(48, 153, 245); */
+    border-radius: 0.4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    width: 100%;
+    max-width: calc(100%);
+}
+
+.column-galeria img{
+    width: 500px;
+    max-width: 100%;
+    background: white;
+    border-radius: 0.4vw;
+    border: 0.5vw solid rgb(220, 181, 0);
+}
+.column-galeria{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
